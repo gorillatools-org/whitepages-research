@@ -1,0 +1,7 @@
+package kotlin;
+
+public interface Lazy {
+    Object getValue();
+
+    boolean isInitialized();
+}

@@ -1,0 +1,29 @@
+package androidx.datastore.preferences.protobuf;
+
+class GeneratedMessageInfoFactory implements MessageInfoFactory {
+    private static final GeneratedMessageInfoFactory instance = new GeneratedMessageInfoFactory();
+
+    private GeneratedMessageInfoFactory() {
+    }
+
+    public static GeneratedMessageInfoFactory getInstance() {
+        return instance;
+    }
+
+    public boolean isSupported(Class cls) {
+        return GeneratedMessageLite.class.isAssignableFrom(cls);
+    }
+
+    public MessageInfo messageInfoFor(Class cls) {
+        Class<GeneratedMessageLite> cls2 = GeneratedMessageLite.class;
+        if (cls2.isAssignableFrom(cls)) {
+            try {
+                return (MessageInfo) GeneratedMessageLite.getDefaultInstance(cls.asSubclass(cls2)).buildMessageInfo();
+            } catch (Exception e) {
+                throw new RuntimeException("Unable to get message info for " + cls.getName(), e);
+            }
+        } else {
+            throw new IllegalArgumentException("Unsupported message type: " + cls.getName());
+        }
+    }
+}

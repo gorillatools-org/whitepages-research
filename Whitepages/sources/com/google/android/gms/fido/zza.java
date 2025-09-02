@@ -1,0 +1,88 @@
+package com.google.android.gms.fido;
+
+import com.google.android.gms.common.Feature;
+
+public final class zza {
+    public static final Feature zza;
+    public static final Feature zzb;
+    public static final Feature zzc;
+    public static final Feature zzd;
+    public static final Feature zze;
+    public static final Feature zzf;
+    public static final Feature zzg;
+    public static final Feature zzh;
+    public static final Feature zzi;
+    public static final Feature zzj;
+    public static final Feature zzk;
+    public static final Feature zzl;
+    public static final Feature zzm;
+    public static final Feature zzn;
+    public static final Feature zzo;
+    public static final Feature zzp;
+    public static final Feature zzq;
+    public static final Feature zzr;
+    public static final Feature zzs;
+    public static final Feature[] zzt;
+
+    static {
+        Feature feature = r1;
+        Feature feature2 = new Feature("cancel_target_direct_transfer", 1);
+        zza = feature2;
+        Feature feature3 = r2;
+        Feature feature4 = new Feature("delete_credential", 1);
+        zzb = feature4;
+        Feature feature5 = r3;
+        Feature feature6 = new Feature("delete_device_public_key", 1);
+        zzc = feature6;
+        Feature feature7 = r4;
+        Feature feature8 = new Feature("get_or_generate_device_public_key", 1);
+        zzd = feature8;
+        Feature feature9 = r5;
+        Feature feature10 = new Feature("get_passkeys", 1);
+        zze = feature10;
+        Feature feature11 = r6;
+        Feature feature12 = new Feature("update_passkey", 1);
+        zzf = feature12;
+        Feature feature13 = r7;
+        Feature feature14 = new Feature("is_user_verifying_platform_authenticator_available_for_credential", 1);
+        zzg = feature14;
+        Feature feature15 = r8;
+        Feature feature16 = new Feature("is_user_verifying_platform_authenticator_available", 1);
+        zzh = feature16;
+        Feature feature17 = r9;
+        Feature feature18 = new Feature("privileged_api_list_credentials", 2);
+        zzi = feature18;
+        Feature feature19 = r10;
+        Feature feature20 = new Feature("start_target_direct_transfer", 1);
+        zzj = feature20;
+        Feature feature21 = r11;
+        Feature feature22 = new Feature("zero_party_api_register", 3);
+        zzk = feature22;
+        Feature feature23 = r12;
+        Feature feature24 = new Feature("zero_party_api_sign", 3);
+        zzl = feature24;
+        Feature feature25 = r13;
+        Feature feature26 = feature;
+        Feature feature27 = new Feature("zero_party_api_list_discoverable_credentials", 2);
+        zzm = feature27;
+        Feature feature28 = r0;
+        Feature feature29 = new Feature("zero_party_api_authenticate_passkey", 1);
+        zzn = feature29;
+        Feature feature30 = r0;
+        Feature feature31 = new Feature("zero_party_api_register_passkey", 1);
+        zzo = feature31;
+        Feature feature32 = r0;
+        Feature feature33 = new Feature("zero_party_api_get_hybrid_client_registration_pending_intent", 1);
+        zzp = feature33;
+        Feature feature34 = r0;
+        Feature feature35 = new Feature("zero_party_api_get_hybrid_client_sign_pending_intent", 1);
+        zzq = feature35;
+        Feature feature36 = r0;
+        Feature feature37 = new Feature("get_browser_hybrid_client_sign_pending_intent", 1);
+        zzr = feature37;
+        Feature feature38 = r0;
+        Feature feature39 = new Feature("get_browser_hybrid_client_registration_pending_intent", 1);
+        zzs = feature39;
+        zzt = new Feature[]{feature26, feature3, feature5, feature7, feature9, feature11, feature13, feature15, feature17, feature19, feature21, feature23, feature25, feature28, feature30, feature32, feature34, feature36, feature38};
+    }
+}

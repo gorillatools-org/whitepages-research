@@ -1,0 +1,46 @@
+package com.google.android.material;
+
+public abstract class R$dimen {
+    public static int design_appbar_elevation = 2131099763;
+    public static int design_bottom_sheet_peek_height_min = 2131099778;
+    public static int design_navigation_icon_size = 2131099788;
+    public static int design_snackbar_padding_vertical = 2131099803;
+    public static int design_snackbar_padding_vertical_2lines = 2131099804;
+    public static int design_textinput_caption_translate_y = 2131099810;
+    public static int material_clock_hand_center_dot_radius = 2131099988;
+    public static int material_clock_hand_padding = 2131099989;
+    public static int material_clock_hand_stroke_width = 2131099990;
+    public static int material_clock_size = 2131099996;
+    public static int material_filled_edittext_font_1_3_padding_bottom = 2131100005;
+    public static int material_filled_edittext_font_1_3_padding_top = 2131100006;
+    public static int material_filled_edittext_font_2_0_padding_bottom = 2131100007;
+    public static int material_filled_edittext_font_2_0_padding_top = 2131100008;
+    public static int material_font_1_3_box_collapsed_padding_top = 2131100009;
+    public static int material_font_2_0_box_collapsed_padding_top = 2131100010;
+    public static int material_helper_text_default_padding_top = 2131100011;
+    public static int material_helper_text_font_1_3_padding_horizontal = 2131100012;
+    public static int material_helper_text_font_1_3_padding_top = 2131100013;
+    public static int material_input_text_to_prefix_suffix_padding = 2131100014;
+    public static int material_time_picker_minimum_screen_height = 2131100022;
+    public static int material_time_picker_minimum_screen_width = 2131100023;
+    public static int mtrl_calendar_bottom_padding = 2131100147;
+    public static int mtrl_calendar_content_padding = 2131100148;
+    public static int mtrl_calendar_day_height = 2131100150;
+    public static int mtrl_calendar_day_width = 2131100154;
+    public static int mtrl_calendar_days_of_week_height = 2131100155;
+    public static int mtrl_calendar_dialog_background_inset = 2131100156;
+    public static int mtrl_calendar_month_horizontal_padding = 2131100168;
+    public static int mtrl_calendar_month_vertical_padding = 2131100169;
+    public static int mtrl_calendar_navigation_bottom_padding = 2131100170;
+    public static int mtrl_calendar_navigation_height = 2131100171;
+    public static int mtrl_calendar_navigation_top_padding = 2131100172;
+    public static int mtrl_exposed_dropdown_menu_popup_elevation = 2131100194;
+    public static int mtrl_exposed_dropdown_menu_popup_vertical_padding = 2131100196;
+    public static int mtrl_min_touch_target_size = 2131100227;
+    public static int mtrl_shape_corner_size_small_component = 2131100261;
+    public static int mtrl_snackbar_background_corner_radius = 2131100273;
+    public static int mtrl_textinput_box_label_cutout_padding = 2131100281;
+    public static int mtrl_textinput_box_stroke_width_default = 2131100282;
+    public static int mtrl_textinput_box_stroke_width_focused = 2131100283;
+    public static int mtrl_textinput_counter_margin_start = 2131100284;
+}

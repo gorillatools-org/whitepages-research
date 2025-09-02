@@ -1,0 +1,25 @@
+package kotlinx.coroutines.android;
+
+import android.os.Looper;
+import java.util.List;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlinx.coroutines.MainCoroutineDispatcher;
+import kotlinx.coroutines.internal.MainDispatcherFactory;
+
+public final class AndroidDispatcherFactory implements MainDispatcherFactory {
+    public int getLoadPriority() {
+        return 1073741823;
+    }
+
+    public MainCoroutineDispatcher createDispatcher(List list) {
+        Looper mainLooper = Looper.getMainLooper();
+        if (mainLooper != null) {
+            return new HandlerContext(HandlerDispatcherKt.asHandler(mainLooper, true), (String) null, 2, (DefaultConstructorMarker) null);
+        }
+        throw new IllegalStateException("The main looper is not available");
+    }
+
+    public String hintOnError() {
+        return "For tests Dispatchers.setMain from kotlinx-coroutines-test module can be used";
+    }
+}

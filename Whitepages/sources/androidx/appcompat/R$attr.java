@@ -1,0 +1,42 @@
+package androidx.appcompat;
+
+public abstract class R$attr {
+    public static int actionBarPopupTheme = 2130903044;
+    public static int actionBarSize = 2130903045;
+    public static int actionBarStyle = 2130903047;
+    public static int actionBarTheme = 2130903051;
+    public static int actionBarWidgetTheme = 2130903052;
+    public static int actionModePopupWindowStyle = 2130903066;
+    public static int actionModeStyle = 2130903070;
+    public static int actionOverflowButtonStyle = 2130903073;
+    public static int actionOverflowMenuStyle = 2130903074;
+    public static int alertDialogCenterButtons = 2130903083;
+    public static int alertDialogStyle = 2130903084;
+    public static int alertDialogTheme = 2130903085;
+    public static int autoCompleteTextViewStyle = 2130903100;
+    public static int buttonStyle = 2130903179;
+    public static int checkboxStyle = 2130903206;
+    public static int checkedTextViewStyle = 2130903216;
+    public static int colorAccent = 2130903271;
+    public static int colorButtonNormal = 2130903273;
+    public static int colorControlActivated = 2130903275;
+    public static int colorControlHighlight = 2130903276;
+    public static int colorControlNormal = 2130903277;
+    public static int colorSwitchThumbNormal = 2130903308;
+    public static int dialogTheme = 2130903394;
+    public static int dropDownListViewStyle = 2130903421;
+    public static int editTextStyle = 2130903427;
+    public static int imageButtonStyle = 2130903566;
+    public static int listMenuViewStyle = 2130903707;
+    public static int listPopupWindowStyle = 2130903708;
+    public static int panelMenuListTheme = 2130903868;
+    public static int radioButtonStyle = 2130903911;
+    public static int ratingBarStyle = 2130903913;
+    public static int searchViewStyle = 2130903954;
+    public static int seekBarStyle = 2130903955;
+    public static int spinnerStyle = 2130903989;
+    public static int switchStyle = 2130904034;
+    public static int textColorSearchUrl = 2130904112;
+    public static int toolbarNavigationButtonStyle = 2130904168;
+    public static int toolbarStyle = 2130904169;
+}

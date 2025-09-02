@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/caller_id_root" android:background="@drawable/overlay_bg" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:elevation="8dp">
+    <ImageView android:id="@+id/caller_icon" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/ic_caller_id" android:contentDescription="Caller ID Info" android:layout_marginEnd="8dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/caller_id_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="20sp" android:textStyle="bold" android:textColor="?android:attr/textColorPrimary" android:id="@+id/caller_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

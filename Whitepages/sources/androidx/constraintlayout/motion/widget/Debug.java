@@ -1,0 +1,13 @@
+package androidx.constraintlayout.motion.widget;
+
+import android.view.View;
+
+public abstract class Debug {
+    public static String getName(View view) {
+        try {
+            return view.getContext().getResources().getResourceEntryName(view.getId());
+        } catch (Exception unused) {
+            return "UNKNOWN";
+        }
+    }
+}

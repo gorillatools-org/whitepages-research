@@ -1,0 +1,40 @@
+package com.wpconnect;
+
+public final class BuildConfig {
+    public static final String AMPLITUDE_KEY = "0b1cd97914b58d5fb34643981178610e";
+    public static final String ANNUAL_500__249_99 = "rp_249_99_annual_500";
+    public static final String APPLICATION_ID = "com.wpconnect";
+    public static final String APP_NAME = "ReversePhone";
+    public static final String BUILD_TYPE = "release";
+    public static final boolean DEBUG = false;
+    public static final String ENCRYPTION_KEY = "iUZktnGqXEcZqglp";
+    public static final String FLAGSHIP_API_KEY = "eOPcjOndSGuuTOcoZuNwPVrYmeAVSWLBnQkzreuc";
+    public static final String FLAGSHIP_ENV_ID = "cau9bkjpdlr04sk5qsf0";
+    public static final String FLAVOR = "prod";
+    public static final String GOOGLE_IOS_CLIENT_ID = "154653447684-ndt2g09u4huc04m61m59s35bpnkrn326.apps.googleusercontent.com";
+    public static final String GOOGLE_WEB_CLIENT_ID = "154653447684-u35kqt9gdm3c7cn4rqmotj8ree8m8qjg.apps.googleusercontent.com";
+    public static final boolean IS_HERMES_ENABLED = true;
+    public static final boolean IS_NEW_ARCHITECTURE_ENABLED = false;
+    public static final String LOOKUPS_3_ID = "revphone_3_contact";
+    public static final String MNG_SERVER_URL = "https://mng.whitepages.com";
+    public static final String MONTHLY_100__22_99 = "rp_22_99_monthly_100";
+    public static final String MONTHLY_20__5_99 = "rp_5_99_monthly_20";
+    public static final String MONTHLY_500__49_99 = "rp_49_99_monthly_500";
+    public static final String PARTIAL_LOOKUP = "revphone_partial_lookup";
+    public static final String PRODUCT_20_LOOKUPS_ANNUAL_ANDROID = "rp_20_mem_annual_android";
+    public static final String PRODUCT_20_LOOKUPS_ANNUAL_MOBILE = "rp_20_mem_annual";
+    public static final String PROPERTY_REPORT_BUNDLE_PURCHASE = "rp_19_99_property_bundle_3";
+    public static final String PROPERTY_REPORT_PURCHASE = "rp_property_report";
+    public static final String SERVER_URL = "https://app.whitepages.com/api/v4";
+    public static final String SINGLE_LOOKUP_4_99 = "rp_4_99_wp_1_lookup";
+    public static final String SINGLE_PURCHASE_ID = "revphone_1_contact";
+    public static final String SINGLE_SMARTCHECK_PURCHASE_ID = "revphone_1_smartcheck";
+    public static final String SMARTCHECK_2_PURCHASE_ID = "revphone_2_smartcheck";
+    public static final String SMARTCHECK_3_PURCHASE_ID = "revphone_3_smartcheck";
+    public static final String THREE_LOOKUPS_9_99 = "rp_9_99_wp_3_lookup";
+    public static final int VERSION_CODE = 25083005;
+    public static final String VERSION_NAME = "7.17.0";
+    public static final String WHITEPAGES_ANNUAL_SUB_100 = "rp_annual_subscription_100_lookups";
+    public static final String WHITEPAGES_MONTHLY_SUB_100 = "rp_monthly_subscription_100_lookups";
+    public static final String WMS_SERVER_URL = "https://geo-proxy.411more.com";
+}

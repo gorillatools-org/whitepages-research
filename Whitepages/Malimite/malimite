@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Get the absolute path to the directory this script is in
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Check if Java is installed and find the Java executable path
+JAVA_EXE=$(which java)
+if [[ -z "$JAVA_EXE" ]]; then
+    echo "Java is not installed or not in your PATH."
+    exit 1
+fi
+
+# Check Java version
+JAVA_VERSION=$($JAVA_EXE -version 2>&1 | awk -F '"' '/version/ {print $2}')
+JAVA_MAJOR_VERSION=$(echo $JAVA_VERSION | cut -d'.' -f1)
+JAVA_MAJOR_VERSION=${JAVA_MAJOR_VERSION//[!0-9]/}  # Ensure it's numeric
+
+# Handle version strings that start directly with the major version (Java 9+)
+if [[ "$JAVA_MAJOR_VERSION" -eq 1 ]]; then
+    JAVA_MAJOR_VERSION=$(echo $JAVA_VERSION | cut -d'.' -f2)
+fi
+
+# Check if the required Java version is installed
+if [[ "$JAVA_MAJOR_VERSION" -lt 11 ]]; then
+    echo "This application requires Java 11 or higher."
+    echo "Current version: Java $JAVA_VERSION"
+    exit 1
+fi
+
+# Change to the script directory so the application can find DecompilerBridge
+cd "$SCRIPT_DIR"
+
+# Run the JAR file using the absolute path
+echo "Starting Malimite..."
+"$JAVA_EXE" -jar "$SCRIPT_DIR/Malimite-1-2.jar"
